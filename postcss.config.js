@@ -1,9 +1,13 @@
-const postcssPresetEnv = require("postcss-preset-env");
+import postcssPresetEnv from "postcss-preset-env";
 
-module.exports = {
-  plugins: [
-    postcssPresetEnv({
-      stage: 0,
-    }),
-  ],
-};
+export const plugins = [
+  postcssPresetEnv({
+    stage: 3,
+    features: {
+      "logical-properties and values": false,
+      "opacity-percentage": true,
+				"text-decoration-shorthand": true,
+        "media-query-ranges": true,
+    }
+  }),
+];
