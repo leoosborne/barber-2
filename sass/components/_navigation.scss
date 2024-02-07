@@ -13,6 +13,7 @@
     font-size: $navigation-font-size;
     letter-spacing: $navigation-letter-spacing;
     text-decoration: none;
+    text-transform: $heading-text-transform;
 
     &:is(:hover, :focus) {
       color: $navigation-color-hover;

@@ -8,7 +8,7 @@ $color-background-default: $color-primary-100;
 $color-text-interactive-default: $color-accent-400;
 $color-text-interactive-hover: $color-accent-500;
 
-$letter-spacing-loose: 0.16em; // em because it's a %
+$letter-spacing-loose: 0.04em; // em because it's a %
 
 // Boder Radius
 $border-radius-1: $size-2;
@@ -35,7 +35,7 @@ $heading-font-family: $font-family-accent;
 $heading-color-default: $body-text-color;
 $heading-font-weight: $font-weight-bold;
 $heading-letter-spacing: $letter-spacing-loose;
-$heading-line-height: 1;
+$heading-line-height: 0.85;
 $heading-text-transform: uppercase;
 
 // Layout
@@ -68,12 +68,13 @@ $navigation-font-size: $font-size-400;
 $navigation-font-weight: $font-weight-bold;
 $navigation-letter-spacing: $letter-spacing-loose;
 $navigation-spacing: $size-9;
+$navigation-text-transform: $heading-text-transform;
 
 // Buttons
 $button-font-family: $body-font-family;
 $button-font-size: $font-size-600;
 $button-font-weight: $font-weight-bold;
-$button-padding-default: $size-3 $size-9; // 12px 32px
+$button-padding-default: $size-4 $size-8; // 16px 32px
 $button-border: 0;
 $button-border-radius: $border-radius-1;
 
