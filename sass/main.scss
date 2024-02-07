@@ -1,5 +1,11 @@
 @use "base";
-@use "components";
 @use "layout";
 @use "utilities";
 @use "vendor";
+@use "components";
+
+/* with @use, the order is important, it will be the order of cascade, with first files in last imported first at top of cascade  */
+
+.border-red {
+  border: solid 1px red;
+}
