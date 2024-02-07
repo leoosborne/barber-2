@@ -52,6 +52,23 @@ $container-max-width: 64rem;
 $container-max-width-narrow: 40rem;
 $container-max-width-wide: 75rem;
 
+// site header
+$site-header-background-color: $color-primary-800;
+$site-header-color: $color-neutral-100;
+$site-header-padding: $size-8 0;
+$side-header-margin: 0;
+$site-header-justification: space-between;
+$site-header-alignment: start;
+
+// navigation
+$navigation-color: $site-header-color;
+$navigation-color-hover: $color-primary-300;
+$navigation-font-family: $font-family-accent;
+$navigation-font-size: $font-size-400;
+$navigation-font-weight: $font-weight-bold;
+$navigation-letter-spacing: $letter-spacing-loose;
+$navigation-spacing: $size-9;
+
 // Buttons
 $button-font-family: $body-font-family;
 $button-font-size: $font-size-600;
