@@ -1,0 +1,30 @@
+@use "../abstracts/" as *;
+
+.hours-box {
+  display: flex;
+  flex-direction: column;
+  //border: $size-1 solid $color-accent-500;
+}
+.day {
+  //flex: 1;
+  display: grid;
+  gap: 1rem;
+  font-family: $heading-font-family;
+  font-weight: $heading-font-weight;
+  font-size: $font-size-700;
+  line-height: 0.88;
+  padding: 0 $size-6;
+  letter-spacing: $letter-spacing-loose;
+  text-transform: uppercase;
+  color: $color-text-hours;
+  margin-block-start: 0.25em;
+  margin-block-end: 0.25em;
+
+  &__time {
+    font-family: $body-font-family;
+    font-weight: $body-font-weight;
+    font-size: $body-font-size;
+    color: $color-text-default;
+    letter-spacing: normal;
+  }
+}
