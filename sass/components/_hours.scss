@@ -3,7 +3,6 @@
 .hours-box {
   display: flex;
   flex-direction: column;
-  //border: $size-1 solid $color-accent-500;
 }
 .day {
   //flex: 1;
@@ -26,5 +25,17 @@
     font-size: $body-font-size;
     color: $color-text-default;
     letter-spacing: normal;
+  }
+
+  &__time::before {
+    content: "|";
+    position: relative;
+    left: -1.7rem;
+  }
+
+  &__line::after {
+    content: "|";
+    position: relative;
+    left: 1.6rem;
   }
 }
