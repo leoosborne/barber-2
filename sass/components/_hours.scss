@@ -3,9 +3,29 @@
 .hours-box {
   display: flex;
   flex-direction: column;
+
+  &::before {
+    content: "";
+    display: absolute;
+    margin-bottom: -2.8rem;
+    margin-left: -14px;
+    height: $size-6;
+    width: 2px;
+    background-color: $color-hours-dividers;
+  }
+
+  &:last-child::after {
+    content: "";
+    display: absolute;
+    margin-top: -2.6rem;
+    margin-left: 9rem;
+    height: $size-6;
+    width: 2px;
+    background-color: $color-hours-dividers;
+  }
 }
+
 .day {
-  //flex: 1;
   display: grid;
   gap: 1rem;
   font-family: $heading-font-family;
@@ -25,17 +45,5 @@
     font-size: $body-font-size;
     color: $color-text-default;
     letter-spacing: normal;
-  }
-
-  &__time::before {
-    content: "|";
-    position: relative;
-    left: -1.7rem;
-  }
-
-  &__line::after {
-    content: "|";
-    position: relative;
-    left: 1.6rem;
   }
 }
