@@ -194,10 +194,58 @@
       </section>
       <section class="padding-block-11">
         <div class="container">
-          <div class="padding-block-start-12">
+          <div class="padding-block-start-6">
             <h2 class="heading-2 text-center">Book an appointment</h2>
-            <div class="even-columns padding-block-start-12"></div>
+            <p
+              class="fs-500 padding-block-start-4 padding-block-end-9 text-center"
+            >
+              Open 7 days a week to serve your hair cutting needs
+            </p>
           </div>
+        </div>
+        <div class="container" data-type="narrow">
+          <form action="POST" class="contact-form">
+            <div class="form-group">
+              <label for="name">Your name</label>
+              <input id="name" type="text" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail address</label>
+              <input type="email" placeholder="johnny@gmail.com" required />
+            </div>
+            <div class="form-group">
+              <label for="date">Date</label>
+              <input id="date" type="date" required />
+            </div>
+            <div class="form-group">
+              <label for="Phone number">Phone number</label>
+              <input type="tel" placeholder="123-456-7890" required />
+            </div>
+            <div class="form-group">
+              <label for="service">Select service</label>
+              <!-- <input id="service" type="text" required /> -->
+              <select name="service">
+                <option>Adult Cut</option>
+                <option>Kids Cut</option>
+                <option>Cut & Wash</option>
+                <option>Beard Trim</option>
+                <option>Hot Towel Shave</option>
+                <option>Head & Beard</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="barber">Barber's name</label>
+              <select name="service">
+                <option>Brandon</option>
+                <option>Brendan</option>
+                <option>Mike</option>
+                <option>Ken</option>
+                <option>Julia</option>
+                <option>Winslow</option>
+              </select>
+            </div>
+            <button class="button" data-type="accent">Book appointment</button>
+          </form>
         </div>
       </section>
     </main>
