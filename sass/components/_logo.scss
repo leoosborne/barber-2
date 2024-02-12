@@ -1,11 +1,15 @@
 @use "../abstracts/" as *;
 
 .logo {
-  max-width: 15rem;
-  fill: $color-accent-300;
+  max-width: $logo-size-default;
+  fill: $logo-fill-default;
 
+  .site-header & {
+    max-width: $logo-size-header;
+    fill: $logo-fill-header;
+  }
   .footer & {
-    max-width: 30rem;
-    fill: $color-accent-500;
+    max-width: $logo-size-footer;
+    fill: $logo-fill-footer;
   }
 }

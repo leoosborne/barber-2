@@ -2,7 +2,7 @@
 @use "typography" as *;
 @use "sizes" as *;
 
-$active-theme: $dark;
+$active-theme: $light;
 
 // Contextual
 $color-text-default: $color-primary-700;
@@ -33,6 +33,14 @@ $body-background-color: $color-background-default;
 // Links
 $link-color: $color-text-interactive-default;
 $link-color-hover: $color-text-interactive-hover;
+
+// Logo
+$logo-fill-default: $color-accent-400;
+$logo-fill-header: $color-accent-400;
+$logo-fill-footer: $color-accent-500;
+$logo-size-default: 15rem;
+$logo-size-header: $logo-size-default;
+$logo-size-footer: 24rem;
 
 // Headings
 $heading-font-family: $font-family-accent;
