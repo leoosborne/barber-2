@@ -1,8 +1,20 @@
 // global color tokens
 $-clr-white: hsl(0 0% 100%);
+$-clr-grey-300: hsl(224, 6%, 61%);
+$-clr-grey-400: hsl(224 6% 51%);
+$-clr-grey-500: hsl(224 6% 41%);
 $-clr-orange-300: hsl(8 75% 60%);
 $-clr-orange-400: hsl(8 62% 55%);
 $-clr-orange-500: hsl(8 62% 35%);
+$-clr-green-300: hsl(141, 65%, 49%);
+$-clr-green-400: hsl(141, 65%, 39%);
+$-clr-green-500: hsl(141, 65%, 29%);
+$-clr-yellow-300: hsl(59, 97%, 48%);
+$-clr-yellow-400: hsl(59, 97%, 39%);
+$-clr-yellow-500: hsl(59, 97%, 29%);
+$-clr-lime-300: hsl(93, 55%, 64%);
+$-clr-lime-400: hsl(93, 55%, 54%);
+$-clr-lime-500: hsl(93, 55%, 44%);
 $-clr-brown-100: hsl(33 24% 92%);
 $-clr-brown-200: hsl(33 25% 88%);
 $-clr-brown-300: hsl(33 23% 69%);
@@ -10,6 +22,13 @@ $-clr-brown-400: hsl(22 31% 44%);
 $-clr-brown-700: hsl(20 23% 23%);
 $-clr-brown-800: hsl(18 23% 12%);
 $-clr-brown-900: hsl(18 23% 5%);
+$-clr-blue-100: hsl(208 75% 92%);
+$-clr-blue-300: hsl(208 75% 86%);
+$-clr-blue-400: hsl(208 27% 63%);
+$-clr-blue-600: hsl(208 27% 48%);
+$-clr-blue-700: hsl(208 27% 29%);
+$-clr-blue-800: hsl(208 45% 15%);
+$-clr-blue-900: hsl(208 27% 9%);
 
 $light: (
   "neutral": (
@@ -48,6 +67,46 @@ $dark: (
     "700": $-clr-brown-300,
     "800": $-clr-brown-200,
     "900": $-clr-brown-100,
+  ),
+);
+
+$techlight: (
+  "neutral": (
+    "100": $-clr-white,
+  ),
+  "accent": (
+    "300": $-clr-grey-300,
+    "400": $-clr-grey-400,
+    "500": $-clr-grey-500,
+  ),
+  "primary": (
+    "100": $-clr-blue-100,
+    "200": $-clr-blue-300,
+    "300": $-clr-blue-400,
+    "400": $-clr-blue-600,
+    "700": $-clr-blue-700,
+    "800": $-clr-blue-800,
+    "900": $-clr-blue-900,
+  ),
+);
+
+$techdark: (
+  "neutral": (
+    "100": $-clr-blue-900,
+  ),
+  "accent": (
+    "300": $-clr-grey-300,
+    "400": $-clr-grey-400,
+    "500": $-clr-grey-500,
+  ),
+  "primary": (
+    "100": $-clr-blue-900,
+    "200": $-clr-blue-800,
+    "300": $-clr-blue-700,
+    "400": $-clr-blue-600,
+    "700": $-clr-blue-400,
+    "800": $-clr-blue-300,
+    "900": $-clr-blue-100,
   ),
 );
 

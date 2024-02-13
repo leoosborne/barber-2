@@ -46,3 +46,19 @@ body[data-theme="dark"] {
     }
   }
 }
+
+body[data-theme="techlight"] {
+  @each $color, $shade-map in $techlight {
+    @each $shade, $value in $shade-map {
+      --#{$color}-#{$shade}: #{$value};
+    }
+  }
+}
+
+body[data-theme="techdark"] {
+  @each $color, $shade-map in $techdark {
+    @each $shade, $value in $shade-map {
+      --#{$color}-#{$shade}: #{$value};
+    }
+  }
+}
