@@ -9,10 +9,9 @@ $color-text-default: $color-primary-700;
 $color-background-default: $color-primary-100;
 $color-text-interactive-default: $color-accent-400;
 $color-text-interactive-hover: $color-accent-500;
-$color-text-hours: $color-primary-400;
-$color-hours-dividers: $color-primary-300;
 
-$letter-spacing-loose: 0.16em; // em because it's a %
+// (set to 0 to disable)
+$letter-spacing-loose: 0; // em because it's a %
 
 // Boder Radius
 $border-radius-1: $size-2;
