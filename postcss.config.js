@@ -6,8 +6,8 @@ export const plugins = [
     features: {
       "logical-properties and values": false,
       "opacity-percentage": true,
-				"text-decoration-shorthand": true,
-        "media-query-ranges": true,
+			"text-decoration-shorthand": true,
+      "media-query-ranges": true,
     }
   }),
 ];
